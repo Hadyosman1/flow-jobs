@@ -49,10 +49,10 @@ const JobResults = async ({ filterValues, page = 1 }: JobResultsProps) => {
   const jobsPromise = prisma.job.findMany({
     where,
     orderBy: { createdAt: "desc" },
-    skip,
     take: JOBS_PER_PAGE,
+    skip,
   });
-  const countPromise = prisma.job.count({ where: { approved: true } });
+  const countPromise = prisma.job.count({ where });
 
   const [jobs, count] = await Promise.all([jobsPromise, countPromise]);
 
