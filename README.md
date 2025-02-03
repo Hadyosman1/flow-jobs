@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Flow Jobs 🚀
 
-## Getting Started
+A modern job board platform connecting talents with opportunities.
 
-First, run the development server:
+## ✨ Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Flow Jobs is a sophisticated job marketplace built with cutting-edge technologies. Our platform streamlines the job search and posting process, making it easier for professionals to find their next career move and for employers to discover great talent.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Smart Job Search**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  - Advanced filtering by location, job type, and remote options
+  - Real-time search with instant results
+  - Intuitive user interface
 
-## Learn More
+- **Employer Dashboard**
 
-To learn more about Next.js, take a look at the following resources:
+  - Easy job posting and management
+  - Application tracking
+  - Analytics and insights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **User Features**
+  - Personalized job recommendations
+  - Save favorite jobs
+  - Mobile-responsive design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes
+- **Database**: PostgreSQL
+- **Authentication**: Clerk
+- **Deployment**: Vercel
+- **Storage**: Vercel Blob Storage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔒 Security
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Secure authentication with Clerk
+- Protected admin routes
+- Data encryption
+- Regular security updates
